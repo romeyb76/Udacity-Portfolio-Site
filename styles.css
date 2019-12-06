@@ -1,0 +1,32 @@
+body {
+  font-family: 'Lato', sans-serif;
+  }
+
+.headings {
+  margin-top: 20px;
+  margin-left: 195px;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+hr {
+  clear: both;
+  background-color: #7d97ad;
+  border: none;
+  height: 5px;
+  width: 85%;
+}
+/** Media Queries **/
+
+@media screen and (min-width: 800px) {
+  .main-photo {
+    margin-left: 100px;
+  }
+
+  .portfolio {
+    margin-left: 25px;
+  }
+}
